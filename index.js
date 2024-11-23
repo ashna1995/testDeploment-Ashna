@@ -5,7 +5,7 @@ app.get('/',(req,res)=>{
     res.send("Hello World")
 });
 app.get("/test",(req,res)=>{
-    res.send("Hello World test")
+    res.send("Hello World test  ")
 });
 const PORT =8000;
 app.listen(PORT,()=>{

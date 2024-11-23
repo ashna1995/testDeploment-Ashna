@@ -7,7 +7,7 @@ app.get('/',(req,res)=>{
 app.get("/test",(req,res)=>{
     res.send("Hello World test  ")
 });
-const PORT =8000;
+const PORT =8080;
 app.listen(PORT,()=>{
     console.log(`Server is running on port ${PORT}`)
 })
